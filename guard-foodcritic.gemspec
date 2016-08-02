@@ -15,11 +15,11 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = Guard::FOODCRITIC_VERSION
 
-  gem.add_runtime_dependency 'guard', '~> 2.12'
-  gem.add_dependency 'guard-compat', '~> 1.2'
-  gem.add_runtime_dependency 'foodcritic', '~> 6.0'
+  gem.add_runtime_dependency 'guard', '>= 2.12'
+  gem.add_dependency 'guard-compat', '>= 1.2'
+  gem.add_runtime_dependency 'foodcritic'
 
-  gem.add_development_dependency 'rake', '~> 11.0'
-  gem.add_development_dependency 'rspec', '~> 3.4'
-  gem.add_development_dependency 'rubocop', '~> 0.39'
+  gem.add_development_dependency 'rake', '>= 11.0'
+  gem.add_development_dependency 'rspec', '>= 3.4'
+  gem.add_development_dependency 'rubocop'
 end
